@@ -1,0 +1,107 @@
+/* Custom Font */
+@font-face {
+    font-family: CursedTimerUlil-Aznm;
+    src: url("font/CursedTimerUlil-Aznm.ttf");
+}
+
+/* body styling */
+body {
+    margin: 0;
+}
+
+/* container style */
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1b244a;
+    width: 575px;
+    height: 385px;
+    align-items: center;
+}
+
+/* home heading */
+.home h3 {
+    color: white;
+    text-align: center;
+    font-family: verdana;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    margin-bottom: 24px;
+}
+
+/* home para */
+.home p {
+    font-family: CursedTimerUlil-Aznm;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    text-align: center;
+    color: #F94F6D;
+    margin: 0;
+    background-color: #080001;
+    padding-top: 20px;
+    border-radius: 5px;
+}
+
+/* button container styling */
+.buttons {
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* button styling */
+.button {
+    background-color: #1b244a;
+    color: #9AABD8;
+    font-family: CursedTimerUlil-Aznm;
+    border: 1px solid #9AABD8;
+    padding: 10px;
+    margin: 0px 4px;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* reset button style */
+.reset-btn {
+    background-color: #1b244a;
+    color: #9AABD8;
+    font-family: CursedTimerUlil-Aznm;
+    border: 1px solid #9AABD8;
+    padding: 10px;
+    margin: 0px 4px;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 42px;
+}
+
+/* guest heading */
+.guest h3 {
+    color: white;
+    text-align: center;
+    font-family: verdana;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    margin-bottom: 24px;
+}
+
+/* guest para */
+.guest p {
+    font-family: CursedTimerUlil-Aznm;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    text-align: center;
+    color: #F94F6D;
+    margin: 0;
+    background-color: #080001;
+    padding-top: 20px;
+    border-radius: 5px;
+}
